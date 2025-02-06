@@ -1,23 +1,17 @@
 import React, { useState } from 'react'
 import NavBar from './NavBar'
-import { motion } from "motion/react"
+import {motion} from 'framer-motion'
 import Cards from './Cards'
 import Contact from './Contact'
 
 function Header() {
   
 
-  const backgroundStyle = {
-    backgroundImage: "url('/header_image.jpg')",
-    backgroundSize: 'cover',
-    transition: 'background-position 0.5s ease-in-out'
-  };
-
   return (
     <div className=''>
       <div className='min-h-screen md:min-h-[90vh] lg:min-h-[85vh] xl:min-h-[80vh] 
     bg-cover bg-center bg-no-repeat rounded-tl-lg rounded-tr-lg rounded-br-[50px]'
-      style={backgroundStyle}
+    style={{backgroundImage: "url('/header_img.png')"}}
       id='Header'>
         <div className='absolute top-0 left-0 right-0 z-50'>
           <NavBar/>
@@ -36,7 +30,20 @@ function Header() {
                 MENSCHEN VERBINDEN
               </h2>
               <h1 className='text-xl'>Spezialisten für Glasfaserinstallationen</h1>
-              
+              <div className='mt-4 lg:mt-8 flex flex-col sm:flex-row sm:space-x-6'>
+                <a href='#Projects' className='border-2 border-white px-8 py-4 rounded-full mb-4 sm:mb-0 text-center 
+                   text-white font-bold transition duration-300 ease-in-out 
+                   hover:bg-white hover:text-blue-600 hover:shadow-lg 
+                   transform hover:scale-105 w-full sm:w-auto'>
+                   Projekte
+                </a>
+                <a href='#Contact' className='bg-blue-500 px-8 py-4 rounded-full mb-4 sm:mb-0 text-center 
+                  text-white font-bold transition duration-300 ease-in-out 
+                  hover:bg-blue-600 hover:shadow-lg 
+                  transform hover:scale-105 w-full sm:w-auto'>
+                  Kontaktieren Sie uns
+                </a>
+              </div>
             </motion.div>
 
             <div>
