@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 import {motion} from 'framer-motion'
 import Cards from './Cards'
 import Contact from './Contact'
-
+import { assets } from '../assets/assets'
 function Header() {
   
 
@@ -11,7 +11,7 @@ function Header() {
     <div className=''>
       <div className='min-h-screen md:min-h-[90vh] lg:min-h-[85vh] xl:min-h-[80vh] 
     bg-cover bg-center bg-no-repeat rounded-tl-lg rounded-tr-lg rounded-br-[50px]'
-    style={{backgroundImage: "url('/header_img.png')"}}
+    style={{ backgroundImage: "url('/GarciaSrl/header_image.jpg')" }}
       id='Header'>
         <div className='absolute top-0 left-0 right-0 z-50'>
           <NavBar/>

@@ -27,6 +27,7 @@ import maquinaria11 from './maquinaria11.jpg'
 
 
 
+
 export const assets = {
     logo,
     menu_icon,
@@ -54,4 +55,5 @@ export const assets = {
     maquinaria9 ,
     maquinaria10,
     maquinaria11,
+    
 }

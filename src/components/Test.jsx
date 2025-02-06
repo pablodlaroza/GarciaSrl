@@ -11,6 +11,7 @@ const TestMotion = () => {
     >
       <h1 className="text-3xl font-bold">Hola, Framer Motion!</h1>
       <p className="mt-4">Esta es una prueba de animación.</p>
+      <img src="/header_image.jpg" alt="" />
     </motion.div>
   );
 };
