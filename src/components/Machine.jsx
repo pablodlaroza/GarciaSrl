@@ -59,7 +59,7 @@ const Maquinaria = () => {
               <img
                 src={image}
                 alt={`Maschine ${index+1}`}
-                className="w-full h-96 object-cover md:h-[350px] lg:h-[400px] 
+                className="w-full h-[400px]  md:h-[350px] lg:h-[400px] 
                   transition-transform duration-300 ease-in-out hover:scale-105 hover:brightness-110 cursor-pointer"
               />
             </div>
