@@ -108,13 +108,13 @@ const Services = () => {
             onClick={vorherigerSlide}
             className="px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-600 focus:outline-none"
           >
-            Vorheriger
+            Zurück
           </button>
           <button
             onClick={nächsterSlide}
             className="px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-600 focus:outline-none"
           >
-            Nächster
+            Weiter
           </button>
         </div>
       </div>

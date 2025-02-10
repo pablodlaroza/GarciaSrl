@@ -24,6 +24,8 @@ import maquinaria8 from './maquinaria8.jpg'
 import maquinaria9 from './maquinaria9.jpg'
 import maquinaria10 from './maquinaria10.jpg'
 import maquinaria11 from './maquinaria11.jpg'
+import maquinaria0 from './maquinaria0.jpeg'
+import maquinaria0_1 from './maquinaria0_1.png'
 
 
 
@@ -55,5 +57,7 @@ export const assets = {
     maquinaria9 ,
     maquinaria10,
     maquinaria11,
+    maquinaria0,
+    maquinaria0_1
     
 }

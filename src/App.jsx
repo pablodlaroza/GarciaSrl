@@ -8,7 +8,6 @@ import Faq from './components/Faq'
 import Footer from './components/Footer'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import TestMotion from './components/Test'
 
 function App() {
   return (
@@ -21,7 +20,7 @@ function App() {
       <Machine/>
       <Faq />
       <Footer/>
-      <TestMotion/>
+      
     </div>
   )
 }

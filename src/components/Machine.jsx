@@ -9,6 +9,8 @@ const Maquinaria = () => {
     assets.maquinaria1,
     assets.maquinaria2,
     assets.maquinaria3,
+    assets.maquinaria0,
+    assets.maquinaria0_1,
     assets.maquinaria4,
     assets.maquinaria5,
     assets.maquinaria6,
@@ -17,6 +19,8 @@ const Maquinaria = () => {
     assets.maquinaria9,
     assets.maquinaria10,
     assets.maquinaria11,
+    
+   
   ];
 
   const infiniteMaquinaria = [...maquinaria, ...maquinaria];
@@ -59,7 +63,7 @@ const Maquinaria = () => {
               <img
                 src={image}
                 alt={`Maschine ${index+1}`}
-                className="w-full h-[400px]  md:h-[350px] lg:h-[400px] 
+                className="w-full h-[450px]  md:h-[350px] lg:h-[450px] 
                   transition-transform duration-300 ease-in-out hover:scale-105 hover:brightness-110 cursor-pointer"
               />
             </div>
@@ -71,13 +75,13 @@ const Maquinaria = () => {
             onClick={prevSlide}
             className="px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-600 focus:outline-none"
           >
-            Vorheriges
+            Zurück
           </button>
           <button
             onClick={nextSlide}
             className="px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-600 focus:outline-none"
           >
-            Nächstes
+            Weiter
           </button>
         </div>
       </div>
