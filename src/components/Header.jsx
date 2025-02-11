@@ -28,7 +28,7 @@ function Header() {
               <div className="relative mb-4 lg:mb-6">
                 <div className="absolute inset-0 bg-white/10 rounded-full blur-[0.5px]"></div>
                 <img
-                  className="w-32 lg:w-52 rounded-full blur-[0.5px] opacity-80 transition-all duration-300 ease-in-out hover:blur-none hover:opacity-100 hover:scale-105"
+                  className="w-32 lg:w-52 rounded-full blur-[0.5px] opacity-90 transition-all duration-300 ease-in-out hover:blur-none hover:opacity-100 hover:scale-105"
                   src={assets.logo}
                   alt=""
                 />
