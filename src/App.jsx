@@ -8,6 +8,7 @@ import Faq from './components/Faq'
 import Footer from './components/Footer'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import WhatsAppButton from './components/WhatsAppButton'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Machine/>
       <Faq />
       <Footer/>
-      
+      <WhatsAppButton/>
     </div>
   )
 }
