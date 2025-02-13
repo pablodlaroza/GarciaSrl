@@ -20,12 +20,12 @@ const Services = () => {
     {
       title: "Aktivierung",
       description: "Schnelle und sichere Aktivierung von Diensten.",
-      image: assets.activacion,
+      image: assets.aktivierung,
     },
     {
       title: "Asphalt",
       description: "Reparatur und Wartung von Asphaltoberflächen.",
-      image: assets.instalacion2,
+      image: assets.asphalt,
     },
     {
       title: "Sanierung",
@@ -64,7 +64,7 @@ const Services = () => {
       </div>
 
       {/* Karussell */}
-      <div className="relative overflow-hidden rounded-lg shadow-md p-4 md:p-6">
+      <div className="relative overflow-hidden rounded-lg shadow-md  md:p-6">
         {/* Bildcontainer */}
         <div
           className="flex transition-transform duration-500 ease-in-out"
@@ -84,7 +84,7 @@ const Services = () => {
                 <img
                   src={dienstleistung.image}
                   alt={dienstleistung.title}
-                  className="w-full h-96 object-cover md:h-[350px] lg:h-[400px] 
+                  className="w-full h-96 object-cover md:h-[350px] lg:h-[500px] 
                     group-hover:scale-105 group-hover:brightness-110 transition-transform duration-300 ease-in-out"
                 />
                 {/* Overlay mit Informationen */}
