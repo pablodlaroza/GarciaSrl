@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import WhatsAppButton from './components/WhatsAppButton'
+import EmailButton from './components/EmailButton'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Faq />
       <Footer/>
       <WhatsAppButton/>
+      
     </div>
   )
 }
