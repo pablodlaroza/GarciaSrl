@@ -40,10 +40,7 @@ function Footer() {
       </div>
       <div>
         <div>
-          <p className='text-center text-gray-400 mt-8'>
-            © 2025 Alle Rechte vorbehalten. Entwickelt von{' '}
-            <span className='text-blue-500'>Pablodlaroza</span>
-          </p>
+          
         </div>
       </div>
     </div>
